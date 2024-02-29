@@ -1,5 +1,5 @@
 function createFeed(url) {
-    fetch(url + "/nanoblog.php")
+    fetch(url + "/nanoblog")
           .then(function (response) {
             return response.json();
           })
